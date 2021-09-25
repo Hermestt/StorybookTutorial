@@ -1,4 +1,4 @@
-# Workflow name
+GIT # Workflow name
 name: "Chromatic"
 
 # Event for the workflow
@@ -21,4 +21,4 @@ jobs:
         with:
           token: ${{ secrets.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 }}
           # 👇 Chromatic projectToken, refer to the manage page to obtain it.
-          projectToken: ${{ secrets.8683797b3c2c }}
+          projectToken: 8683797b3c2c
