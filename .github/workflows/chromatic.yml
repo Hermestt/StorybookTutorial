@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: foo
+        working-directory: StorybookTutorial
     # Job steps
     steps:
       - uses: actions/checkout@v1
@@ -20,7 +20,7 @@ jobs:
       - uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
         with:
-          workingDir: foo
+          workingDir: StorybookTutorial
           #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ to obtain it
           projectToken: ${{ secrets.8683797b3c2c }}
           token: ${{ secrets.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 }}
