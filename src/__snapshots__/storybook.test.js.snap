@@ -280,7 +280,7 @@ exports[`Storyshots InboxScreen Error 1`] = `
     <div
       className="subtitle-message"
     >
-      Something went wrong
+      Something went wrong dude
     </div>
   </div>
 </div>
