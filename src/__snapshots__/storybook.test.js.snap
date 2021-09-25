@@ -42,7 +42,7 @@ exports[`Storyshots InboxScreen Default 1`] = `
           placeholder="Input title"
           readOnly={true}
           type="text"
-          value="Task 1"
+          value="Task 01"
         />
       </div>
       <div
@@ -442,7 +442,7 @@ exports[`Storyshots TaskList Default 1`] = `
           placeholder="Input title"
           readOnly={true}
           type="text"
-          value="Task 1"
+          value="Task 01"
         />
       </div>
       <div
@@ -938,7 +938,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
           placeholder="Input title"
           readOnly={true}
           type="text"
-          value="Task 1"
+          value="Task 01"
         />
       </div>
       <div
