@@ -31,6 +31,7 @@ export const reducer = (state, action) => {
 			return taskStateReducer("TASK_ARCHIVE")(state, action);
 		case actions.PIN_TASK:
 			taskStateReducer("TASK_PINNED")(state, action);
+			break;
 		default:
 			return state;
 	}

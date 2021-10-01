@@ -1,8 +1,16 @@
 module.exports = {
 	stories: ["../src/components/**/*.stories.@(js|jsx|ts|tsx)"],
 	addons: [
-		"@storybook/addon-links",
-		"@storybook/addon-essentials",
-		"@storybook/preset-create-react-app",
+		{
+			name: "@storybook/addon-essentials",
+			options: {
+				default: "lightgrey",
+				values: {
+					name: "lightgrey",
+					value: "#fafafa",
+				},
+				measure: false,
+			},
+		},
 	],
 };
